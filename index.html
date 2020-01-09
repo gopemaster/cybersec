@@ -7,7 +7,7 @@
     <title>Gujarat&Seferoglu</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
-  <body>
+  <body onselectstart="return false">
 
     <audio src="gujarat-song.mp3" type="audio/mp3" loop autoplay></audio>
 
@@ -34,7 +34,10 @@
         
       </div>
     </div>
-    
+   
+    <script>
+      document.addEventListener('contextmenu', event => event.preventDefault());
+    </script>
     
   </body>
 </html>
