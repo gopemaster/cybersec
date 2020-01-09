@@ -4,7 +4,7 @@ body,html{
 }
 
 .overlay{
-  background-image: linear-gradient(to bottom, rgba(156, 70, 12, 0.5), rgb(0, 6, 41));
+  background-image: linear-gradient(to bottom, rgba(156, 70, 12, 0.5), rgb(0, 6, 41,0.5));
   width: 100%;
   height: 100vh;
   position: relative;
@@ -70,7 +70,7 @@ body,html{
 .us{
   width: 100%;
   height: 100vh;
-  background-image: linear-gradient(to right, rgb(0, 36, 134), rgb(255, 62, 110));
+  background-color:rgb(70, 70, 70);
 }
 
 .about2{
