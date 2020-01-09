@@ -1,0 +1,99 @@
+body,html{
+  margin: 0;
+  background:url();
+}
+
+.overlay{
+  background-color: rgba(43, 10, 0, 0.384);
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  filter: blur(2px);
+}
+
+.intro{
+  height: 100vh;
+  width: 100%;
+  background:url("beach-waves.gif")no-repeat center center fixed;
+  background-size: 100%;
+  text-align: center;
+  font-family: 'Lexend Deca', sans-serif;
+  color: white;
+}
+
+.intro h1{
+  font-family: 'Lexend Deca', sans-serif;
+  color: white;
+  font-size: 100px;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: relative;
+  animation: shadow 1s  forwards;
+  cursor: pointer;
+}
+
+.intro h1:hover{
+  text-shadow: none;
+}
+
+.sec-nav{
+  height:40px;
+  width:100%;
+  overflow:hidden;
+  background-color:rgb(20, 20, 20);
+  top:0;
+  position:sticky;
+  text-align: center;
+}
+
+.sec-nav a{
+  font-family: 'Lexend Deca', sans-serif;
+    font-size: 20px;
+    color:white;
+    text-align: center;
+    padding: 20px 22px;
+    text-decoration: none;
+}
+
+.sec-nav a:hover{
+  color: rgb(255, 119, 28);
+}
+
+.about{
+  width: 100%;
+  margin: auto;
+  height: 300vh;
+}
+
+.us{
+  width: 100%;
+  height: 100vh;
+  background-color: blue;
+}
+
+.about2{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(255, 0, 64);
+}
+
+.about3{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(255, 123, 0);
+}
+
+
+
+@keyframes shadow{
+  0%{
+    text-shadow: 0px 0px green;
+  }
+  100%{
+    text-shadow: 5px 5px rgb(18, 173, 43), -5px -5px rgb(252, 101, 0);
+  }
+}
+
+
