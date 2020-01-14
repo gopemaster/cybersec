@@ -29,6 +29,6 @@ body{
 .resume{
   height: 100vh;
   width: 100%;
-  background-image: linear-gradient(to bottom, rgba(3, 142, 255, 0.712), black), url("server.gif");
+  background-image: linear-gradient(to bottom, rgba(3, 142, 255, 0.712), black), url("serverraum-v02");
   background-size:100%;
 }
