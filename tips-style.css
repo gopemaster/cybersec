@@ -1,0 +1,101 @@
+body,html{
+    margin: 0;
+    background-image: url("retro.gif");
+    background-size: 100%;
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+.sec-nav{
+    height:40px;
+    width:100%;
+    overflow:hidden;
+    background-color:rgb(0, 0, 0);
+    top:0;
+    position:sticky;
+    text-align: center;
+    z-index: 100;
+  }
+  
+.sec-nav a{
+    font-family: 'Lexend Deca', sans-serif;
+      font-size: 20px;
+      color:white;
+      text-align: center;
+      padding: 20px 22px;
+      text-decoration: none;
+  }
+  
+.sec-nav a:hover{
+    color: rgb(255, 128, 9);
+}
+
+.intro{
+  text-align: center;
+  font-family: 'Lexend Deca', sans-serif;
+  color: white;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(107, 0, 194, 0.644), rgb(0, 0, 0));
+  border-bottom: 1px solid white;
+}
+
+.intro h1{
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+    font-size: 100px;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+    cursor: pointer;
+}
+
+.intro button{
+    width: 150px;
+    height: 60px;
+    background: transparent;
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    border: 3px solid white;
+  }
+
+.intro button:hover{
+    background: rgb(252, 0, 76);
+    box-shadow: 5px 5px rgb(0, 255, 0);
+    transition: 0.3s;
+}
+
+
+.intro h1:hover{
+    text-shadow: 5px 5px rgb(0, 252, 0), -5px -5px rgb(255, 0, 55);
+    transition: 0.3s;
+}
+
+
+.tip1{
+    width: 100%;
+    height: 100vh;
+    border-bottom: 1px unset white;
+    background-image:linear-gradient(to bottom, rgba(255, 72, 0, 0.788), rgba(247, 0, 103, 0.719)), url(https://media.giphy.com/media/UlEgF7j6Mexa0/source.gif);
+    background-size: 100%;
+    border-bottom: 1px solid white;
+}
+
+.tip2{
+    width: 100%;
+    height: 100vh;
+    border-bottom: 1px unset white;   
+    background-image: linear-gradient(to bottom, rgba(25, 150, 52, 0.733), rgb(0, 0, 0));
+}
+
+.tip3{
+    width: 100%;
+    height: 100vh;
+    border-bottom: 1px unset white;   
+    background-image:linear-gradient(to bottom, rgba(255, 72, 0, 0.616), rgba(189, 0, 63, 0.568)), url("https://media.giphy.com/media/vOgpALRSTYLvO/source.gif");
+    background-size: 100%;   
+}
