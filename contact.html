@@ -7,38 +7,44 @@
         <link href="contact-style.css" rel="stylesheet" type="text/css" />
     </head>
         <body>
-    
-            <audio src="Gopeturksong.mp3" type="audio/mp3" loop autoplay></audio>
-            
+
         <div class="sec-nav">
             <a href="index.html"> Home</a><span style="font-size:30px; color:white;font-weight:bold;">/</span>
             <a href="#">Products</a><span style="font-size:30px; color:white;font-weight:bold;">/</span>
             <a href="#">Tips</a>
         </div>
-        
+      
+    <div class="form-container">
         <div class="contact-form">
 
             <h1>Contact Us</h1>
 
-            <form>
-                <input type="text" placeholder="Name"><br><br>
+            <form method="POST" action="sender.php">
+                <input type="text" placeholder="Name" name="name"><br><br>
                 
-                <input type="email" placeholder="E-mail"><br><br>
+                <input type="email" placeholder="E-mail" name="e-mail"><br><br>
                   
-                <input type="text" placeholder="Subject"><br><br>
+                <input type="text" placeholder="Subject" name="subject"><br><br>
                   
-                <textarea type="text" placeholder="Message"></textarea><br><br>
+                <textarea type="text" placeholder="Message" name="message"></textarea><br><br>
 
-                <button class="submit" type="submit">Send Message</button>
+                <button class="submit" type="submit" name="submit">Send Message</button>
             </form>
         </div>
+    </div>
         
-        <div class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5192.730406376202!2d72.56638788227566!3d23.030568202181744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e845857637495%3A0xec8426e13c793310!2sGujarat%20Chamber%20of%20Commerce%20and%20Industry!5e0!3m2!1sen!2sus!4v1578793687479!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        <div class="guj-map">
+            <h1 style="margin:0; padding-top:10px; font-family: 'Lexend Deca', sans-serif; color: white;line-height: 150px;font-size: 65px;">Our Gujarat Location</h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5192.730406376202!2d72.56638788227566!3d23.030568202181744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e845857637495%3A0xec8426e13c793310!2sGujarat%20Chamber%20of%20Commerce%20and%20Industry!5e0!3m2!1sen!2sus!4v1578793687479!5m2!1sen!2sus" width="60%" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
         </div>
-
+        <div class="turk-map">
+            <h1 style="margin:0; padding-top:10px; font-family: 'Lexend Deca', sans-serif; color: white;line-height: 150px;font-size: 65px;">Our Turkey Location</h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3009.4919348295166!2d28.978929714915406!3d41.03637012564551!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab766bd1b0f71%3A0x3520d5bd742464df!2sSefero%C4%9Flu%20Gida!5e0!3m2!1sen!2sus!4v1578956957806!5m2!1sen!2sus" width="60%" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+        
         <script>
             document.addEventListener('contextmenu', event => event.preventDefault());
         </script>
-    </head>
+
+    </body>
     
