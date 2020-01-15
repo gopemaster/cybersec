@@ -106,3 +106,13 @@ body,html{
     background-image: linear-gradient(to bottom, rgba(121, 2, 68, 0.432), rgba(0, 0, 53, 0.514)), url("https://media.giphy.com/media/VXhUTVzvNmlRm/source.gif");
     background-size: 100%;
 }
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: rgb(32, 78, 177);
+    transition: 0.2s;
+
+}
