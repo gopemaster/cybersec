@@ -12,6 +12,7 @@ body,html{
   text-align: center;
   font-family: 'Lexend Deca', sans-serif;
   color: white;
+  
 }
 
 .intro h1{
@@ -31,6 +32,8 @@ body,html{
   text-shadow: 5px 5px rgb(18, 173, 43), -5px -5px rgb(252, 101, 0);
   transition: 0.5s;
 }
+
+
 
 h1:hover span{
   color: rgb(38, 162, 245);
